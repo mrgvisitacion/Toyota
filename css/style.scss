@@ -1,5 +1,7 @@
 //VARIABLES
 $type: 'Montserrat', sans-serif;
+$background: white;
+$text-color: black;
 
 //GLOBAL STYLING
 body{
@@ -11,9 +13,11 @@ body{
 //HEADER
 
 .container {
-    width: 60%;
+    width: 75%;
     margin: 0 auto;
+    padding-top: 25px;
 }
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -30,5 +34,42 @@ li {
         text-align: center;
         padding: 14px 16px;
         text-decoration: none;
+        color: $text-color;
     }
+}
+
+a:hover {
+    opacity: 0.3;
+}
+
+.toyota {
+    font-weight: 900;
+    font-size: 32px;
+}
+
+.finddealers {
+    font-weight: 500;
+}
+
+
+//HERO
+.headlights {
+    display: block;
+    margin: 0 auto;
+    width: 65%;
+}
+
+@keyframes anim{
+    0%{
+        transform: rotate(0) scale(0.7) translateX(0) translateY(10%);
+        opacity: 0;
+        }
+    100%{
+        transform: rotate(0) scale(1) translateX(0) translateY(0);
+        opacity: 1;
+        }
+}
+
+.headlights{
+    animation: anim 1.2s forwards 0s ease-in-out;
 }

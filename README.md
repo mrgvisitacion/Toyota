@@ -1,2 +1,2 @@
 # Toyota
-View Demo here [https://github.com/mrgvisitacion/toyota]
+View Demo here [https://mrgvisitacion.github.io/toyota]
